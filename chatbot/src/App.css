@@ -1,0 +1,105 @@
+
+
+.tweet{color:#657786; font-size:12px; margin-left:10px; display:flex; line-height:1px;}
+.hash{color:#1DA1F2; font-size:14px; font-weight:bold; margin:10px; display:flex; line-height:17px; text-decoration:none;font-family: "Segoe UI",Arial,sans-serif;}
+.tab{ color: white; font-family:sans-serif; width:150px ; height:60px ;font-size:12px}
+.phoenix{ height: 55px; width : 50px; margin-left:250px;}
+.searchBar{ outline:none ; box-sizing:border-box; border-radius:20px; margin-left:150px; border:1px solid #0fd2e0;
+             margin-top:15px; height:30px; min-width:200px; background:#f5f8fa; padding:5px;background-image: url('search3.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;}
+.profile-icon{
+  background-image: url('pic.jpg');
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+a:hover{text-decoration: underline;}
+.rblinks > a{font-family: "Segoe UI",Arial,sans-serif;color:#657786; font-size:12px; line-height:20px; text-decoration: none;}
+.rblinks > a:hover{text-decoration: underline;}
+.tweetbox{
+    outline:none; box-sizing:border-box; border-radius:8px;
+    margin-left:30px; border:1px solid #0fd2e0; margin-top:17px; background:#ffffff;
+    position:absolute;background-image: url('gallery.png');
+    background-repeat: no-repeat;
+    background-position:420px;
+    background-size: 20px;
+    height:35px; width:450px; padding:3px 3px 3px 12px;
+  }
+.links > a{text-decoration: none;color:#1DA1F2; font-size:14px; line-height:20px;font-weight: bold}
+.links > a:hover{text-decoration: underline;}
+.profile-name{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+}
+.tff{
+  color:#1DA1F2;
+  display:inline-block;
+  font-size:15px;
+  font-weight: bold;
+  font-family: "Segoe UI",Arial,sans-serif;
+  cursor:pointer;
+  line-height: 0px;
+}
+.tff > a:hover{color:#808080;text-decoration: none;}
+.tffn{
+  color:#808080;
+  display:inline-flex;
+  font-size:18px;
+  font-weight: bold;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+.name{
+    word-break: break-all;
+    color: #14171a;
+    font-size: 14px;
+    font-weight: bold;
+    display:inline-flex;
+    verticalAlign: middle;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+.name:hover{color:#1DA1F2;}
+.userName{
+    padding-left: 5px;
+    word-break: break-all;
+    color: #657786;
+    font-size: 14px;
+    font-weight: normal;
+    display:inline-flex;
+    verticalAlign: middle;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+.tweetText{
+    color: #14171a;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left:20px;
+    font-family: Roboto, sans-serif;;
+    cursor: pointer;
+}
+ .c_numbers{
+   display: inline-flex;
+   padding-right: 20px;
+   color: #657786;
+   font-weight:bold;
+   font-size: 14px;
+   font-family: Roboto, sans-serif;
+ }
+ .c_reply:hover{text-decoration:none;color:#00BCD4;cursor: pointer;}
+.c_retweet:hover{text-decoration:none;color:green;cursor: pointer;}
+.c_heart:hover{text-decoration:none;color:#c41328;cursor: pointer;}
+.c_icons{
+    padding-left:10px;
+    display:inline-flex;
+    vertical-align:middle;
+}
+.c_icons > ReplyIcon:hover{fill: #1DA1F2;}
+.avatar{
+  display:flex ;
+  vertical-align:text-top;
+}
