@@ -57,7 +57,7 @@ a:hover{text-decoration: underline;}
     font-size: 14px;
     font-weight: bold;
     display:inline-flex;
-    verticalAlign: middle;
+    vertical-align: middle;
     font-family: Roboto, sans-serif;
     cursor: pointer;
 }
@@ -70,7 +70,7 @@ a:hover{text-decoration: underline;}
     font-size: 14px;
     font-weight: normal;
     display:inline-flex;
-    verticalAlign: middle;
+    vertical-align: middle ;
     font-family: Roboto, sans-serif;
     cursor: pointer;
 }
@@ -100,6 +100,6 @@ a:hover{text-decoration: underline;}
 }
 .c_icons > ReplyIcon:hover{fill: #1DA1F2;}
 .avatar{
-  display:flex ;
+  display:inline-flex ;
   vertical-align:text-top;
 }

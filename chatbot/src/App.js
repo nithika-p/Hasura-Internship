@@ -17,7 +17,13 @@ import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 import ContentFilter from 'material-ui/svg-icons/content/filter-list';
-
+import {
+  Route,
+  BrowserRouter,
+  Router
+} from "react-router-dom";
+import {Redirect} from 'react-router';
+import {browserHistory} from 'react-router';
 import MobileTearSheet from './MobileTearSheet.js';
 import {List, ListItem} from 'material-ui/List';
 import Divider from 'material-ui/Divider';
@@ -54,6 +60,16 @@ class App extends React.Component {
  };
   handleSearchHeight=()=>{
     this.setState({searchHeight:'90px'});
+  };
+
+  searchText=(e)=>{
+    if(e.key==='Enter'){
+      var x=e.target.value;
+      if(x=='aadhaar'|| x=='aadhar'){
+        alert(x);
+        <Redirect to="localhost:3000/aadhaar"/>
+      }
+    }
   };
 
     handleChangeSingle = (event, value) => {
@@ -228,7 +244,7 @@ class App extends React.Component {
                 <Tab className='tab' disableTouchRipple={true} style={{background: '#1DA1F2'}} icon={<ChatIcon/>} labelStyle={{textDecoration:'Capitalize'}} label="Messages" />
               </Tabs>
               <BirdIcon className='phoenix'/>
-              <input className='searchBar' type="text"  placeholder="  Search" />
+              <input className='searchBar' type="text"  placeholder="Search tweet" onKeyDown={this.searchText.bind(this)}/>
               <IconMenu style={{marginLeft:50}}  anchorOrigin={{ vertical: 'bottom', horizontal: 'left',}}
                   iconButtonElement={<FlatButton className='profile-icon' style={{borderRadius:'50px',minWidth:'40px',minHeight:'40px',marginTop:'10px'}}/>}
                   onChange={this.handleChangeSingle}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
+import './Aadhaar.css';
 //mui
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
@@ -40,7 +40,7 @@ import aadhaar3 from './aadhaar-3.jpg'
 import aadhaar4 from './aadhaar-4.jpg'
 import dig_india_dp from './digitalIndia.png'
 
-class App extends React.Component {
+class Aadhaar extends React.Component {
 
        constructor() {
           super();
@@ -412,4 +412,4 @@ class App extends React.Component {
       );
     }
   }
-export default App;
+export default Aadhaar;

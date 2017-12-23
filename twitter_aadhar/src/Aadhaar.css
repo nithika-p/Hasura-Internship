@@ -1,0 +1,83 @@
+
+.tweet{color:#657786; font-size:12px; margin-left:10px; display:flex; line-height:1px;}
+.hash{color:#1DA1F2; font-size:14px; font-weight:bold; margin:10px; display:flex; line-height:17px; text-decoration:none;font-family: "Segoe UI",Arial,sans-serif;}
+.tab{ color: white; font-family:sans-serif; width:110px ; height:60px ;font-size:12px; text-decoration:none; background:#1DA1F2 }
+.phoenix{ height: 100px; width : 100px; margin-left:250px;margin-top: 30px;}
+.searchBar{
+    outline:none ; box-sizing:border-box; border-radius:21px; margin-left:150px; border:1px solid grey;
+    margin-top:15px; height:30px; width:200px; background:#f5f8fa;
+    padding:5px;background-image: url('search3.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;}
+a:hover{text-decoration: underline;}
+.aadhar{
+  background-color:#ffffff;
+  color:#1DA1F2;
+  height:60px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 32px;
+  padding-left: 150px;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+.profile-icon{
+  background-image: url('pic.jpg');
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+.links > a{text-decoration: none;color:#1DA1F2; font-size:14px; line-height:20px;font-weight: bold}
+.links > a:hover{text-decoration: underline;}
+.name{
+    word-break: break-all;
+    color: #14171a;
+    font-size: 14px;
+    font-weight: bold;
+    display:inline-flex;
+    verticalAlign: middle;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+.name:hover{color:#1DA1F2;}
+.userName{
+    padding-left: 5px;
+    word-break: break-all;
+    color: #657786;
+    font-size: 14px;
+    font-weight: normal;
+    display:inline-flex;
+    verticalAlign: middle;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+.tweetText{
+    color: #14171a;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left:20px;
+    font-family: Roboto, sans-serif;;
+    cursor: pointer;
+}
+ .c_numbers{
+   display: inline-flex;
+   padding-right: 20px;
+   color: #657786;
+   font-weight:bold;
+   font-size: 14px;
+   font-family: Roboto, sans-serif;
+   cursor: pointer;
+ }
+.c_reply:hover{text-decoration:none;color:#00BCD4;cursor: pointer;}
+.c_retweet:hover{text-decoration:none;color:green;cursor: pointer;}
+.c_heart:hover{text-decoration:none;color:#c41328;cursor: pointer;}
+.c_icons{
+    padding-left:10px;
+    display:inline-flex;
+    vertical-align:middle;
+}
+.avatar{
+  display:inline-flex ;
+  vertical-align:middle;
+}
