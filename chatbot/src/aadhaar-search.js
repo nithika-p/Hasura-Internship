@@ -51,6 +51,9 @@ class Aadhaar extends React.Component {
             valueSingle: value
           });
         };
+        goToHome=()=>{
+            window.location.href='/';
+        }
 
        render(){
         const ExpandIcon = (props) => (
@@ -174,7 +177,7 @@ class Aadhaar extends React.Component {
           <MuiThemeProvider>
           <AppBar style={{background:'#1DA1F2',height:'60px'}} showMenuIconButton={false} titleStyle={{flex:0}}>
             <Tabs zDepth={4} inkBarStyle={{background:'#ffffff',width:150}} contentContainerStyle={{width:'450px'}}>
-              <Tab className='tab' disableTouchRipple={true} style={{background: '#1DA1F2'}} icon={<HomeIcon/>} labelStyle={{textDecoration:'Capitalize'}} label='Home' />
+              <Tab className='tab' onActive={this.goToHome} disableTouchRipple={true} style={{background: '#1DA1F2'}} icon={<HomeIcon/>} labelStyle={{textDecoration:'Capitalize'}} label='Home' />
               <Tab className='tab' disableTouchRipple={true} style={{background: '#1DA1F2'}} icon={<BellIcon/>} labelStyle={{textDecoration:'Capitalize'}} label="Notification" />
               <Tab className='tab' disableTouchRipple={true} style={{background: '#1DA1F2'}} icon={<ChatIcon/>} labelStyle={{textDecoration:'Capitalize'}} label="Messages" />
             </Tabs>

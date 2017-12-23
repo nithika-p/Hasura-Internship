@@ -66,9 +66,9 @@ class App extends React.Component {
     if(e.key==='Enter'){
       var x=e.target.value;
       if(x=='aadhaar'|| x=='aadhar'){
-        alert(x);
-        <Redirect to="localhost:3000/aadhaar"/>
+        window.location.href = window.location.href +'aadhaar';
       }
+      else{alert('enter aadhaar or aadhar only');}
     }
   };
 
